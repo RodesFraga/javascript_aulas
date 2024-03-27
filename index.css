@@ -1,8 +1,63 @@
-
-body{
-    background-color: rgb(255, 255, 255);
+@charset "UTF-8";
+*{
+    font-family: Rubik, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+    
 }
 
+
+/*no html id = #no Css e Class, '.' no CSS
+: = pseudo class
+:: = Pseudo elemento
+> = filho de alguma class id ou elemento*/
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    /*text-indent: 30px;*/
+    background-color: rgb(247, 247, 247);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+
+#tituloCabecalho{
+    padding: 10px;
+}
+
+
+
+#menuPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 10px;
+
+    
+
+}
+
+
+
 h1{
-    color: rgb(46, 1, 248);
+    color: rgb(49, 46, 253);
+    
+}
+
+p{
+    font-size: 14px;
+    font-weight: normal;
+    text-align: justify;
+   /* text-indent: 30px;*/
+
 }
