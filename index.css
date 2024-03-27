@@ -3,7 +3,8 @@
     font-family: Rubik, sans-serif;
     text-decoration: none;
     list-style: none;
-    margin: 5px;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 
@@ -16,47 +17,91 @@
 body{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
     /*text-indent: 30px;*/
     background-color: rgb(247, 247, 247);
 }
 
 header{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 2%;
+    margin-top: 1%;
     
 }
 
-#tituloCabecalho{
-    padding: 10px;
-
-
+.material-symbols-outlined{
+    color: rgb(49, 46, 253);
 }
 
-#menuPrincipal{
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2px;
+    
+    
+}
+
+#postagem{
+    text-align: justify;
+    background-color: rgb(233, 233, 241);
+    padding: 20px;
+}
+
+
+#divposagemgeral{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content:center;
+    gap: 15px;
+    width: 70%;
+    
+}
+
+
+#tituloversiculo{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    gap: 20px;
-    
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 70%;
+    margin: 5%;
+
 }
+
+
+#titulonadiv{
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+}
+
+.tituloDaPostagem{
+    margin-bottom: 10px;
+}
+
 
 h1{
     color: rgb(49, 46, 253);
     
 }
 
-a{
-    font-weight: bold;
-    color: rgb(49, 46, 253);
-}
+
 
 p{
     font-size: 14px;
     font-weight: normal;
     text-align: justify;
+    padding: 3px;
    /* text-indent: 30px;*/
 
 }
+
