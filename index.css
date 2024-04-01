@@ -60,7 +60,7 @@ main{
     align-items: center;
     align-content:center;
     gap: 15px;
-    width: 70%;
+    width: auto;
     
 }
 
@@ -71,7 +71,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 15px;
-    width: 70%;
+    width: auto;
     margin: 5%;
 
 }
